@@ -188,7 +188,6 @@ a:hover {
 }
 
 .menu-open {
-	overflow: hidden;
 	transform: translateX(300px);
 	-webkit-transform: translateX(300px);
 	-moz-transform: translateX(300px);
@@ -214,4 +213,8 @@ a:hover {
 .menu-mask.active {
 	visibility: visible;
     opacity: 1;
+}
+
+.body-open {
+	overflow: hidden;
 }

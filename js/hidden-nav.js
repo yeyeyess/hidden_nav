@@ -12,7 +12,7 @@ window.onload = function(){
 			navMenu.className += ' nav-menu-open';
 			menuBtn.className += ' active';
 			mask.className += ' active';
-			body.className = 'menu-open';
+			body[0].className = 'body-open';
 			for(var i=0; i<li.length; i++){
 				li[i].className = 'menu-item-open item'+(i+1);
 			}
@@ -22,7 +22,7 @@ window.onload = function(){
 			navMenu.className = 'nav-menu';
 			menuBtn.className = 'menu-btn';
 			mask.className = 'menu-mask';
-			body.className = '';
+			body[0].className = '';
 			for(var i=0; i<li.length; i++){
 				li[i].className = 'menu-item';
 			}
